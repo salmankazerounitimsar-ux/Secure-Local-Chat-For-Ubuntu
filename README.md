@@ -4,7 +4,7 @@ If you are on Ubuntu/Debian, just run:
 
 Bash
 
-git clone https://github.com/YOUR_USERNAME/secure-chat.git && cd secure-chat
+"git clone https://github.com/YOUR_USERNAME/secure-chat.git && cd secure-chat"
 
 
 🔒 Secure Node Chat
