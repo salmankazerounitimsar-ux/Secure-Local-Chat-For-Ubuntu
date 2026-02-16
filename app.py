@@ -13,6 +13,7 @@ if len(sys.argv) < 4:
     print("ERROR: Missing arguments!")
     print("USAGE: python3 app.py <username> <password> <secret_url_path>")
     print("EXAMPLE: python3 app.py root pass123 my-private-chat")
+    print("Go here: http://IPADDRESS:2626/YOUR_SECRET")
     print("!"*50 + "\n")
     sys.exit(1)
 
