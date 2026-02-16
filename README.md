@@ -21,4 +21,4 @@ A high-security, private chat room with a modern **Glassmorphism** UI. Built for
 If you are on an Ubuntu server, you can install everything and start the chat with this one-liner:
 
 ```bash
-git clone [https://github.com/salmankazerounitimsar-ux/Secure-Local-Chat-For-Ubuntu.git](https://github.com/YOUR_USERNAME/secure-chat.git) && cd secure-chat && bash setup.sh
+git clone https://github.com/salmankazerounitimsar-ux/Secure-Local-Chat-For-Ubuntu.git && cd Secure-Local-Chat-For-Ubuntu && bash setup.sh
