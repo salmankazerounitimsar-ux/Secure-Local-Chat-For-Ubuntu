@@ -1,3 +1,12 @@
+🚀 Express Setup
+
+If you are on Ubuntu/Debian, just run:
+
+Bash
+
+git clone https://github.com/YOUR_USERNAME/secure-chat.git && cd secure-chat
+
+
 🔒 Secure Node Chat
 Secure Node Chat is a lightweight, self-hosted communication hub designed for users who prioritize privacy and modern aesthetics. Unlike standard chat apps, this project doesn't store your admin credentials in the code or a database—you set them live in the terminal every time you start the engine.
 
