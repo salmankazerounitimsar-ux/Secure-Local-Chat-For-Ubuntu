@@ -6,7 +6,7 @@ from flask import Flask, render_template_string, request, jsonify, session, redi
 
 app = Flask(__name__)
 app.secret_key = secrets.token_hex(16)
-print("Go here: http://IPADDRESS:2626/YOUR_SECRET")
+print("\033[33m" + "Go here: http://IPADDRESS:2626/YOUR_SECRET" + "\033[0m")
 # --- DYNAMIC CONFIGURATION ---
 if len(sys.argv) < 4:
     print("\n" + "!"*50)
