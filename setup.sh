@@ -17,7 +17,7 @@ sudo apt-get install python3 python3-pip -y > /dev/null
 
 # Install Flask
 echo "[3/3] Installing Flask library..."
-pip3 install flask > /dev/null
+sudo apt install python3-flask -y > /dev/null
 
 echo ""
 echo "✅ SETUP COMPLETE!"
