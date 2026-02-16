@@ -20,5 +20,8 @@ A high-security, private chat room with a modern **Glassmorphism** UI. Built for
 ### **Express Setup (Ubuntu/Debian)**
 If you are on an Ubuntu server, you can install everything and start the chat with this one-liner:
 
+**For accessing go to: http://IPADDRASS:2626/YourPanelSecretURL
+
 ```bash
 git clone https://github.com/salmankazerounitimsar-ux/Secure-Local-Chat-For-Ubuntu.git && cd Secure-Local-Chat-For-Ubuntu && bash setup.sh
+
