@@ -1,31 +1,24 @@
-🚀 Express Setup
+# 🔒 Secure Node Chat
 
-If you are on Ubuntu/Debian, just run:
+A high-security, private chat room with a modern **Glassmorphism** UI. Built for users who need a quick, encrypted-session communication hub that leaves no trace.
 
-Bash
+---
 
-"git clone https://github.com/YOUR_USERNAME/secure-chat.git && cd secure-chat"
+## ✨ Features
 
+* **Zero-Config Security**: No hardcoded credentials. Set your username and password via terminal at runtime.
+* **Stealth Entrance**: The login page is hidden behind a secret URL path of your choice.
+* **Modern UI**: Beautiful dark-mode interface using Tailwind CSS with frosted-glass effects.
+* **Identity Lock**: Choose your chat nickname at the login screen.
+* **Session Purge**: The "EXIT" button clears all session cookies immediately.
+* **Persistent Logs**: Messages are saved to a local `chat_history.json` file.
 
-🔒 Secure Node Chat
-Secure Node Chat is a lightweight, self-hosted communication hub designed for users who prioritize privacy and modern aesthetics. Unlike standard chat apps, this project doesn't store your admin credentials in the code or a database—you set them live in the terminal every time you start the engine.
+---
 
-🚀 Why use this?
-Zero-Config Security: No setup menus. Your username, password, and the secret entrance URL are defined by you at the moment of execution.
+## 🚀 Installation & Setup
 
-Stealth Mode: The website returns a 404 Not Found to anyone who doesn't know your specific "Secret Path."
+### **Express Setup (Ubuntu/Debian)**
+If you are on an Ubuntu server, you can install everything and start the chat with this one-liner:
 
-Modern Aesthetics: A beautiful, responsive interface built with Tailwind CSS, featuring frosted-glass effects (Glassmorphism) and smooth transitions.
-
-Identity Control: Users choose a session nickname at login, which is then locked to their messages for that session.
-
-Privacy First: A prominent "EXIT" button allows for a full session purge, ensuring no trace is left in the browser.
-
-🛠️ Technical Stack
-Backend: Python / Flask
-
-Frontend: HTML5 / Tailwind CSS / JavaScript (ES6)
-
-Data: JSON-based persistent storage
-
-Security: Secrets module for cryptographically strong session tokens
+```bash
+git clone [https://github.com/salmankazerounitimsar-ux/Secure-Local-Chat-For-Ubuntu.git](https://github.com/YOUR_USERNAME/secure-chat.git) && cd secure-chat && bash setup.sh
